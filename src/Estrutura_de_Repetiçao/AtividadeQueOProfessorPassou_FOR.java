@@ -10,7 +10,7 @@ por 3 for igual a zero, então esse número e divisível por 3.
 
 public class AtividadeQueOProfessorPassou_FOR {
 
-    private static final byte DIVISOR = 3;
+    private static final byte DIVISOOR = 3;
 
     public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class AtividadeQueOProfessorPassou_FOR {
 
         for (int i = 0; i < numeros.length; i++) {
 
-            boolean verificarSeDivisivel = numeros[i] % DIVISOR == 0;
+            boolean verificarSeDivisivel = numeros[i] % DIVISOOR == 0;
 
             Integer numero = numeros[i];
 
