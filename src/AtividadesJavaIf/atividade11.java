@@ -1,4 +1,5 @@
-    import java.util.Scanner;
+package AtividadesJavaIf;
+import java.util.Scanner;
     public class atividade11 {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);

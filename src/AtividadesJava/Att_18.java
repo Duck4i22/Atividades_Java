@@ -1,3 +1,4 @@
+package AtividadesJava;
 import java.util.Scanner;
 public class Att_18 {
     

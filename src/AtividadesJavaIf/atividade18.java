@@ -1,3 +1,4 @@
+package AtividadesJavaIf;
 import java.util.Scanner;
 public class atividade18 {
     public static void main(String[] args) {
