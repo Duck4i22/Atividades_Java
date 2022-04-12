@@ -27,6 +27,8 @@ public class Execicio02 {
                 semanaDoMaiorFaturamento = y +1;
             }
         }
-        System.out.print("A SEMANA E :"+ semanaDoMaiorFaturamento + " E VALOR DO FATURAMENTO E: "+maiorFaturamento);
+        System.out.print("A Semana que mais faturou foi a semana:"+ semanaDoMaiorFaturamento + " E e o  valor que a semana rendeu foi de: "+maiorFaturamento);
     }
 }
+
+// chora mais dds 1/12 =[       nada de copiar em ;]
