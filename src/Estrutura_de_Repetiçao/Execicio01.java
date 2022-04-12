@@ -8,7 +8,7 @@ Para descobrir se um número é divisível por 3, você pode utilizar o operador
 por 3 for igual a zero, então esse número e divisível por 3.
  */
 
-public class AtividadeQueOProfessorPassou_FOR {
+public class Execicio01 {
 
     private static final byte DIVISOOR = 3;
 
