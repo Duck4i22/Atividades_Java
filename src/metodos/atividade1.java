@@ -8,16 +8,14 @@ public class atividade1 {
 
         Integer[] multiplicador = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-        int numero = digitarONumeroQueVaiSerMultiplicado();
+        int numero = digitarONumeroQueVaiSerMultiplicado(scanner);
         mostraATabuada(multiplicador, numero);
 
     }
 
-    static int digitarONumeroQueVaiSerMultiplicado() {
-        Scanner scanner = new Scanner(System.in);
+    static int digitarONumeroQueVaiSerMultiplicado(Scanner scanner) {
         System.out.print("digite o numero a ser multiplicador: ");
-        int multiplicado = scanner.nextInt();
-        return multiplicado;
+        return scanner.nextInt();
     }
 
     static void mostraATabuada(Integer[] multiplicador, int numero) {
