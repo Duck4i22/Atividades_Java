@@ -9,12 +9,10 @@ public class atividade1 {
         laca.precoUnitario = 5000.0;
         laca.quantidade = 10;
 
-        System.out.println("Escreva a quantidade do produto ");
+        System.out.println("Escreva a quantidade do produto: ");
         int quantidadeEscolhida = scanner.nextInt();
 
         boolean quantidadeDeProdutoQueSobrou = quantidadeEscolhida > laca.quantidade;
-
-        boolean quantidadeDePlaca = laca.quantidade < 10;
 
         int totalAposEscolha = laca.quantidade - quantidadeEscolhida;
 
@@ -25,16 +23,17 @@ public class atividade1 {
 
             if (quantidadeDeProdutoQueSobrou) {
 
-                System.out.print("Quantidade em estoque do produto " + placa.nome + " é de " + totalAposEscolha + " unidade(s).");
+                System.out.print("ERRO");
+
 
             }else{
-                exibirInfomacoesDoProduto(placa);
+                exibirInfomacoesDoProduto(placa,totalAposEscolha);
                 exibirInformaçoesdeCompra(quantidadeDeProdutoQueSobrou,placa);
             }
         }
 
-    static void exibirInfomacoesDoProduto (placa placa){
-        System.out.print("Quantidade em estoque do produto " + placa.nome + " é de " + placa.quantidade  + " unidade(s).");
+    static void exibirInfomacoesDoProduto (placa placa,int totalAposEscolha ){
+        System.out.print("Quantidade em estoque do produto " + placa.nome + " é de " + totalAposEscolha  + " unidade(s).");
     }
 
     static void exibirInformaçoesdeCompra (boolean quantidadeDePlaca, placa placa){
@@ -42,7 +41,7 @@ public class atividade1 {
         if (quantidadeDePlaca) {
             System.out.println("produto em falta =(");
         } else {
-            exibirInfomacoesDoProduto(placa);
+
         }
     }
 }
