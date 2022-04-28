@@ -23,16 +23,17 @@ public class atividade1 {
 
             if (quantidadeDeProdutoQueSobrou) {
 
-                System.out.print("ERRO");
+                System.err.print("ERRO");
 
 
             }else{
-                exibirInfomacoesDoProduto(placa,totalAposEscolha);
+                exibirInfomacoesDoProduto(placa,totalAposEscolha,);
                 exibirInformaçoesdeCompra(quantidadeDeProdutoQueSobrou,placa);
             }
         }
 
-    static void exibirInfomacoesDoProduto (placa placa,int totalAposEscolha ){
+    static void exibirInfomacoesDoProduto (placa placa,int totalAposEscolha,int quantidadeEscolhida ){
+        System.out.print("Parabens pela compra do produto " + placa.nome + "na quantidade " + quantidadeEscolhida + "!!!!!!!!!!!");
         System.out.print("Quantidade em estoque do produto " + placa.nome + " é de " + totalAposEscolha  + " unidade(s).");
     }
 
