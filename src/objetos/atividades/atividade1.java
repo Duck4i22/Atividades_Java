@@ -1,3 +1,4 @@
+/*
 package objetos.atividades;
 import java.util.Scanner;
 public class atividade1 {
@@ -14,8 +15,8 @@ public class atividade1 {
 
         boolean quantidadeDeProdutoQueSobrou = quantidadeEscolhida > laca.quantidade;
 
-        int totalAposEscolha = laca.quantidade - quantidadeEscolhida;
-
+    0210    int totalAposEscolha = laca.quantidade - quantidadeEscolhida;1400
+0210
         quantidadeMaiorQueEstoque(quantidadeDeProdutoQueSobrou,laca,totalAposEscolha);
 
     }
@@ -27,7 +28,7 @@ public class atividade1 {
 
 
             }else{
-                exibirInfomacoesDoProduto(placa,totalAposEscolha,);
+                exibirInfomacoesDoProduto(placa,totalAposEscolha,quantidadeEscolhida );
                 exibirInformaçoesdeCompra(quantidadeDeProdutoQueSobrou,placa);
             }
         }
@@ -46,3 +47,4 @@ public class atividade1 {
         }
     }
 }
+*/
